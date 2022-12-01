@@ -1,4 +1,4 @@
-const solver = require("./1.i");
+const solver = require("./1i");
 
 const input = `1000
 2000
