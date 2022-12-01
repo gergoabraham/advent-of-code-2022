@@ -10,6 +10,7 @@
     "prettier": "^2.8.0"
   },
   "scripts": {
-    "test": "mocha src --watch --require setupTests.js"
+    "test": "mocha src --watch --require setupTests.js",
+    "solve": "node scripts/solve.js"
   }
 }
