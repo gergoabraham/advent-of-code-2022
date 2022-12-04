@@ -5,12 +5,15 @@
   "license": "MIT",
   "dependencies": {
     "chai": "^4.3.7",
+    "clipboardy": "^3.0.0",
     "eslint": "^8.28.0",
     "mocha": "^10.1.0",
-    "prettier": "^2.8.0"
+    "prettier": "^2.8.0",
+    "prompt-sync": "^4.2.0"
   },
   "scripts": {
     "test": "mocha src --watch --require setupTests.js",
-    "solve": "node scripts/solve.js"
+    "solve": "node scripts/solve.js",
+    "generate": "node scripts/generate.js"
   }
 }
